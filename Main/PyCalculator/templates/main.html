@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="{% static 'css/main.css'%}?v=2">
+</head>
+<body>
+<div id="calculator">
+    <input type="text" id="display" readonly>
+
+    <div class="row">
+        <button onclick="">7</button>
+        <button onclick="">8</button>
+        <button onclick="">9</button>
+        <button onclick="">/</button>
+    </div>
+
+    <div class="row">
+        <button onclick="">4</button>
+        <button onclick="">5</button>
+        <button onclick="">6</button>
+        <button onclick="">*</button>
+    </div>
+
+    <div class="row">
+        <button onclick="">1</button>
+        <button onclick="">2</button>
+        <button onclick="">3</button>
+        <button onclick="">-</button>
+    </div>
+
+    <div class="row">
+        <button onclick="">0</button>
+        <button onclick="">.</button>
+        <button onclick="" id="equals">=</button>
+        <button onclick="">+</button>
+    </div>
+
+    <div class="row">
+        <button onclick="">C</button>
+    </div>
+</div>
+
+
+</body>
+</html>
